@@ -1,0 +1,28 @@
+.topics-title{
+    text-align:center;
+}
+
+.topic{
+    border: .5px solid  rgb(209, 200, 203); 
+    display:flex;
+    justify-content: space-between;
+    
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.topic h1 {
+    margin:0;
+
+}
+@media (max-width: 600px) {
+    .topic {
+        flex-direction: column;
+        
+    }
+    .topic h1 {
+        margin-bottom:10px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

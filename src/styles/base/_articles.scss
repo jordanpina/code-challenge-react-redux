@@ -1,0 +1,17 @@
+.articles-title {
+    text-align:center;
+}
+
+.article {
+   background-color: #FFFFFF;
+   border: .5px solid  rgb(209, 200, 203); 
+   margin: 1rem;
+   padding: 1rem;
+}
+
+.article .article-publisher {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:.2rem;
+    font-size:1.2em;
+}
